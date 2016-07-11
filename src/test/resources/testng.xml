@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ComplexFractionSuite" verbose="1">
+    <test name="test ComplexFraction functionality">
+        <classes>
+            <class name="com.vardanian.complexFraction.FractionTest"/>
+            <class name="com.vardanian.complexFraction.ComplexFractionTest"/>
+        </classes>
+    </test>
+</suite>
